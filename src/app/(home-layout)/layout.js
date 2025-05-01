@@ -1,4 +1,5 @@
 
+import Sidebar from "../Components/UserShared/Sidebar/Sidebar";
 import "../globals.css";
 
 
@@ -11,9 +12,12 @@ const HomeLayout = ({ children }) => {
   return (
     <html lang="en">
       <body
-        className=""
+        className="flex"
       >
-        {children}
+        <div><Sidebar /></div>
+        <div>
+          {children}
+        </div>
       </body>
     </html>
   );
