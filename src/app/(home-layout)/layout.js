@@ -14,8 +14,8 @@ const HomeLayout = ({ children }) => {
       <body
         className="flex"
       >
-        <div><Sidebar /></div>
-        <div>
+        <div className="fixed top-0 left-0 h-screen"><Sidebar /></div>
+        <div className="ml-[550px] w-full h-screen overflow-y-scroll scroll-smooth">
           {children}
         </div>
       </body>
