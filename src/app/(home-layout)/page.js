@@ -47,7 +47,7 @@ const Home = () => {
   };
 
   return (
-    <div className= {` ${barlow.className} bg-white text-black w-full h-screen border-s-4 `}>
+    <div className= {` ${barlow.className} bg-white text-black w-full `}>
  <Box sx={{ width: '100%' }}>
       <Box sx={{  borderColor: 'divider' }}>
         <Tabs sx={{ padding:"10px" }} value={value} onChange={handleChange} aria-label="basic tabs example">

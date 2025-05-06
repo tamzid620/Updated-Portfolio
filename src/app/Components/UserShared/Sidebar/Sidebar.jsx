@@ -1,4 +1,4 @@
-'use client' ;
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import { barlow, robotoSlab } from "@/app/config/fonts";
@@ -17,42 +17,41 @@ import email_Logo from "@/assests/icon/social icon/mail.png";
 import phoneCallLogo from "@/assests/icon/social icon/phone.png";
 import Link from "next/link";
 
-
-const socialLinksData =[
+const socialLinksData = [
   {
-    icon: gitHub_Logo ,
+    icon: gitHub_Logo,
     title: "GitHub",
-    linkto: "https://github.com/tamzid620"
+    linkto: "https://github.com/tamzid620",
   },
   {
-    icon: linkedin_Logo ,
+    icon: linkedin_Logo,
     title: "Linkedin",
-    linkto: "https://www.linkedin.com/in/tamzid-ull-monir-96b163260/"
+    linkto: "https://www.linkedin.com/in/tamzid-ull-monir-96b163260/",
   },
   {
-    icon: whatsApp_Logo ,
+    icon: whatsApp_Logo,
     title: "WhatsApp",
-    linkto: "https://wa.me/+8801852951963"
+    linkto: "https://wa.me/+8801852951963",
   },
   {
-    icon:  cvLogo,
+    icon: cvLogo,
     title: "Resume",
-    linkto: "https://drive.google.com/file/d/1qqg3Z2NYeqkUu7TJU2CdMn41RRfbw6II/view?usp=sharing"
+    linkto:
+      "https://drive.google.com/file/d/1qqg3Z2NYeqkUu7TJU2CdMn41RRfbw6II/view?usp=sharing",
   },
   {
-    icon: email_Logo ,
+    icon: email_Logo,
     title: "Email",
-    linkto: "https://mail.google.com/mail/?view=cm&fs=1&to=tamzid620@email.com"
+    linkto: "https://mail.google.com/mail/?view=cm&fs=1&to=tamzid620@email.com",
   },
   {
-    icon: phoneCallLogo ,
+    icon: phoneCallLogo,
     title: "Phone",
-    linkto: "tel:8801852951963"
+    linkto: "tel:8801852951963",
   },
-]
+];
 
 const Sidebar = () => {
-
   const [hovered, setHovered] = useState(null);
 
   return (
@@ -130,33 +129,30 @@ const Sidebar = () => {
           </div>
           {/* sub section -3  */}
           <div className=" flex justify-center items-center gap-2 mt-10">
-            {
-              socialLinksData.map(({icon, title, linkto},index) => (
-          <div key={index} className="relative inline-block flex-1 sm:flex-none text-center p-0.5 rounded-full border-2 
+            {socialLinksData.map(({ icon, title, linkto }, index) => (
+              <div
+                key={index}
+                className="relative inline-block flex-1 sm:flex-none text-center p-0.5 rounded-full border-2 
 border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] 
 hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px]
-hover:translate-y-[2px] transition-all font-bold uppercase">
-            <Link
-              href={linkto}
-              target="_blank"
-              className=""
-onMouseEnter={() => setHovered(index)}
-onMouseLeave={() => setHovered(null)}
-            >
-              <Image
-                src={icon}
-                alt="icon"
-                className="w-10"
-              />
-            </Link>
-            {hovered === index && (
-        <div className="absolute left-1/2 -translate-x-1/2 mt-1 bg-black text-white text-xs font-semibold px-2 py-1 rounded shadow-lg z-10">
-          {title}
-        </div>
-      )}
-    </div>
-              ))
-            }
+hover:translate-y-[2px] transition-all font-bold uppercase"
+              >
+                <Link
+                  href={linkto}
+                  target="_blank"
+                  className=""
+                  onMouseEnter={() => setHovered(index)}
+                  onMouseLeave={() => setHovered(null)}
+                >
+                  <Image src={icon} alt="icon" className="w-10" />
+                </Link>
+                {hovered === index && (
+                  <div className="absolute left-1/2 -translate-x-1/2 mt-1 bg-black text-white text-xs font-semibold px-2 py-1 rounded shadow-lg z-10">
+                    {title}
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </div>
