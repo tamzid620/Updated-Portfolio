@@ -55,7 +55,7 @@ const Sidebar = () => {
   const [hovered, setHovered] = useState(null);
 
   return (
-    <div className="bg-white text-black lg:w-[550px] md:w-[350px] sm: w-[350px] h-screen pt-10">
+    <div className="bg-white text-black lg:w-[550px] md:w-[400px] sm: w-full sm: px-4 h-screen pt-10">
       {/* image section    */}
       <div className="flex justify-center">
         <div className="bg-gray-500 w-[250px]  p-2  rounded-full shadow-2xl shadow-black">
@@ -79,7 +79,7 @@ const Sidebar = () => {
               Tamzid Ull Monir
             </h1>
             <p className="flex justify-center items-center mt-3 gap-5 font-semibold">
-              <span className="flex items-center">
+              <span className="flex items-center lg:text-md md:text-sm sm: text-md">
                 <Image
                   src={locationImage}
                   alt="icon"
@@ -87,17 +87,17 @@ const Sidebar = () => {
                 />{" "}
                 Chattogram,Bangladesh
               </span>
-              <span className="flex items-center">
+              <span className="flex items-center lg:text-md md:text-sm sm: text-md">
                 <Image src={jobIcon} alt="icon" className=" w-[20px] me-2" />
                 FrontEnd Developer
               </span>
             </p>
             <p className="my-4 text-lg flex justify-center items-center font-semibold text-center">
-              A passionate frontend developer from Bangladesh{" "}
+              A passionate frontend developer from Bangladesh
               <Image
                 src={bangladeshiFlag}
                 alt="bangladeshi flag"
-                className=" w-[30px] ms-2"
+                className=" w-[30px] ms-2 lg:block md:hidden sm: hidden"
               />
             </p>
           </div>
@@ -109,16 +109,16 @@ const Sidebar = () => {
               Specialized in:
             </h1>
             <div className="flex gap-3 justify-center items-center mt-2">
-              <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-4 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
-                <Image src={icon1} alt="icon" className=" w-[25px] me-2" />
+              <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
+                <Image src={icon1} alt="icon" className=" w-[25px] md:me-2 sm: me-0" />
                 React.Js
               </button>
-              <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-4 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
-                <Image src={icon2} alt="icon" className=" w-[25px] me-2" />
+              <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
+                <Image src={icon2} alt="icon" className=" w-[25px] md:me-2 sm: me-0" />
                 Next.Js
               </button>
-              <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-4 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
-                <Image src={icon3} alt="icon" className=" w-[25px] me-2" />
+              <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
+                <Image src={icon3} alt="icon" className=" w-[25px] md:me-2 sm: me-0" />
                 JavaScript
               </button>
             </div>
@@ -140,7 +140,7 @@ hover:translate-y-[2px] transition-all font-bold uppercase"
                 <Link
                   href={linkto}
                   target="_blank"
-                  className=""
+                  className="flex justify-center items-center"
                   onMouseEnter={() => setHovered(index)}
                   onMouseLeave={() => setHovered(null)}
                 >

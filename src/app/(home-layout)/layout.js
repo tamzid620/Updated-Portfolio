@@ -12,10 +12,10 @@ const HomeLayout = ({ children }) => {
   return (
     <html lang="en">
       <body
-        className="flex"
+        className="md:flex sm:inline"
       >
-        <div className="fixed top-0 left-0 h-screen"><Sidebar /></div>
-        <div className="ml-[550px] w-full h-screen overflow-y-scroll scroll-smooth">
+        <div className="md:fixed sm: static top-0 left-0 h-screen"><Sidebar /></div>
+        <div className="lg:ml-[550px] md:ml-[400px] sm: ml-0 w-full h-screen overflow-y-scroll scroll-smooth">
           {children}
         </div>
       </body>

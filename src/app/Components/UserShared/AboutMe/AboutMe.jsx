@@ -146,7 +146,7 @@ const AboutMe = () => {
         <h1 className={` ${robotoSlab.className} text-2xl font-bold mb-5 `}>
           What I’ doing
         </h1>
-        <div className="grid lg:grid-cols-2 md:grid-cols-2 sm: grid-cols-1 gap-5">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1 sm: grid-cols-1 gap-5">
           {myworksData.map(({ icon, title, disc }, index) => (
             <div className="flex gap-3 flex-1 sm:flex-none items-center text-black text-sm px-6 py-10  rounded-sm border-2 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all uppercase">
               <div>
@@ -165,15 +165,15 @@ const AboutMe = () => {
         <h1 className={` ${robotoSlab.className} text-2xl font-bold mb-5 `}>
           My Skills
         </h1>
-        <div className="grid lg:grid-cols-5 md:grid-cols-3 sm: grid-cols-1 gap-5">
+        <div className="grid lg:grid-cols-5 md:grid-cols-2 sm: grid-cols-1 gap-5">
         {skillData.map(({ logo, title }) => (
             <div
               key={title}
-              className="flex-1 sm:flex-none text-center flex items-center justify-center text-black text-lg px-4 py-2 rounded-sm border-2  border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold"
+              className="flex-1 sm:flex-none text-center flex items-center justify-center text-black text-lg px-4 py-2 rounded-sm border-2  border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold "
             >
               <div>
-                <div>
-                <Image className="w-24" src={logo} alt="" />
+                <div className="flex justify-center items-center">
+                <Image className="w-20" src={logo} alt="" />
                  <br />
                 </div>
                 <h1 className="flex justify-center">{title}</h1>
