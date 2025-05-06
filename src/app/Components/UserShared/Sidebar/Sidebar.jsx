@@ -6,15 +6,15 @@ import dp from "@/assests/image/Dp.jpg";
 import bangladeshiFlag from "@/assests/image/bangladesh.png";
 import locationImage from "@/assests/image/map.png";
 import jobIcon from "@/assests/image/suitcase.png";
-import icon1 from "@/assests/icon/react.png";
-import icon2 from "@/assests/icon/Next.js.png";
-import icon3 from "@/assests/icon/js.png";
-import gitHub_Logo from "@/assests/icon/github.png";
-import linkedin_Logo from "@/assests/icon/linkedin (1).png";
-import whatsApp_Logo from "@/assests/icon/whatsapp (1).png";
-import cvLogo from "@/assests/icon/curriculum-vitae.png";
-import email_Logo from "@/assests/icon/mail.png";
-import phoneCallLogo from "@/assests/icon/phone.png";
+import icon1 from "@/assests/icon/tech icon/react.png";
+import icon2 from "@/assests/icon/tech icon/Next.js.png";
+import icon3 from "@/assests/icon/tech icon/js.png";
+import gitHub_Logo from "@/assests/icon/social icon/github.png";
+import linkedin_Logo from "@/assests/icon/social icon/linkedin (1).png";
+import whatsApp_Logo from "@/assests/icon/social icon/whatsapp (1).png";
+import cvLogo from "@/assests/icon/social icon/curriculum-vitae.png";
+import email_Logo from "@/assests/icon/social icon/mail.png";
+import phoneCallLogo from "@/assests/icon/social icon/phone.png";
 import Link from "next/link";
 
 

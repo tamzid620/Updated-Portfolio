@@ -6,8 +6,8 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import { barlow } from '../config/fonts';
 import MyProjects from '../Components/UserShared/MyProjects/MyProjects';
-import MySkills from '../Components/UserShared/MySkills/MySkills';
 import ContactMe from '../Components/UserShared/ContactMe/ContactMe';
+import AboutMe from '../Components/UserShared/AboutMe/AboutMe';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -58,16 +58,9 @@ const Home = () => {
       </Box>
       <CustomTabPanel value={value} index={0}>
       <MyProjects/>
-      <button className='flex-1 sm:flex-none text-center bg-blue-500
-text-white text-xs px-4 py-2 rounded-sm border-2 
-border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] 
-hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px]
-hover:translate-y-[2px] transition-all font-bold uppercase'>
-        Click here
-      </button>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <MySkills/>
+        <AboutMe/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         <ContactMe/>
