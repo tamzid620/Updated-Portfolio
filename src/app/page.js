@@ -64,7 +64,7 @@ const Home = () => {
         <AboutMe/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        <ContactMe/>
+        <ContactMe href="#contact"/>
       </CustomTabPanel>
     </Box>
     </div>

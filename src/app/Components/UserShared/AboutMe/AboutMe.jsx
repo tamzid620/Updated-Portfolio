@@ -128,7 +128,7 @@ const AboutMe = () => {
   return (
     <div className={` ${barlow.className} md:mt-12 sm:mt-0 `}>
       {/* section div -1 ------------------------  */}
-      <div className="mb-10">
+      <div className="pt-10 mb-10">
         <h1 className={` ${robotoSlab.className} text-2xl font-bold mb-5 `}>
           About Me
         </h1>

@@ -42,7 +42,7 @@ const socialLinksData = [
   {
     icon: email_Logo,
     title: "Email",
-    linkto: "https://mail.google.com/mail/?view=cm&fs=1&to=tamzid620@email.com",
+    linkto: "#contact",
   },
   {
     icon: phoneCallLogo,
