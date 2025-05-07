@@ -50,12 +50,12 @@ const ContactMe = () => {
         <div className= {` ${barlow.className} md:mt-12 sm:mt-0 h-screen`}>
             <h1 className={` ${robotoSlab.className} text-2xl font-bold pt-10 mb-5 `}>Send Your Email</h1>
              {/* email input section  */}
-             <div >
+             <div className='flex-1 sm:flex-none  flex items-center bg-white text-white px-4 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all font-semibold uppercase'>
               <form
                 onSubmit={handleSubmit}
                 action="/submit-feedback"
                 method="post"
-                className="bg-transparent shadow-black shadow-md  w-full mx-auto py-10  px-4 rounded-md"
+                className="bg-transparent  w-full mx-auto py-10  px-4 rounded-md"
               >
                 <div>
                   <label
@@ -128,12 +128,14 @@ const ContactMe = () => {
                 {loading ? (
                   <DefalutLoading />
                 ) : (
+                  <div className='flex justify-center'>
                   <button
                     type="submit"
                     className="mt-5 flex-1 sm:flex-none text-center flex items-center bg-blue-500 text-white text-sm px-8 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase"
                   >
                     Send
                   </button>
+                  </div>
                 )}
               </form>
             </div>

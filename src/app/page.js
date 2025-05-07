@@ -5,10 +5,10 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import { barlow } from '../config/fonts';
-import MyProjects from '../Components/UserShared/MyProjects/MyProjects';
-import ContactMe from '../Components/UserShared/ContactMe/ContactMe';
-import AboutMe from '../Components/UserShared/AboutMe/AboutMe';
+import { barlow } from './config/fonts';
+import MyProjects from './Components/UserShared/MyProjects/MyProjects';
+import ContactMe from './Components/UserShared/ContactMe/ContactMe';
+import AboutMe from './Components/UserShared/AboutMe/AboutMe';
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
