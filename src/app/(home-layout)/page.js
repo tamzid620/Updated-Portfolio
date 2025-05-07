@@ -50,7 +50,7 @@ const Home = () => {
   return (
     <div className= {` ${barlow.className} bg-white text-black w-full `}>
  <Box sx={{ width: '100%' }}>
-      <Box sx={{  borderColor: 'divider', }} className= "bg-white md:fixed sm: sticky top-0">
+      <Box sx={{  borderColor: 'divider', }} className= "bg-white md:fixed sm: sticky top-0 w-full z-10">
         <Tabs sx={{ padding:"10px" }} value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab sx={{ fontWeight: 'bold', color: "black" }} label="Projects" {...a11yProps(0)} />
           <Tab sx={{ fontWeight: 'bold', color: "black" }} label="About" {...a11yProps(1)} />
