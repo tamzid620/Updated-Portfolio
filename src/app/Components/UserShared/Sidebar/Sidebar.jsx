@@ -40,11 +40,6 @@ const socialLinksData = [
       "https://drive.google.com/file/d/1qqg3Z2NYeqkUu7TJU2CdMn41RRfbw6II/view?usp=sharing",
   },
   {
-    icon: email_Logo,
-    title: "Email",
-    linkto: "#contact",
-  },
-  {
     icon: phoneCallLogo,
     title: "Phone",
     linkto: "tel:8801852951963",

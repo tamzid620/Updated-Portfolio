@@ -47,7 +47,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className= {` ${barlow.className} md:mt-12 sm:mt-0 h-screen`}>
+        <div id="contact" className= {` ${barlow.className} md:mt-12 sm:mt-0 h-screen `}>
             <h1 className={` ${robotoSlab.className} text-2xl font-bold pt-10 mb-5 `}>Send Your Email</h1>
              {/* email input section  */}
              <div className='flex-1 sm:flex-none  flex items-center bg-white text-white px-4 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] transition-all font-semibold uppercase'>
