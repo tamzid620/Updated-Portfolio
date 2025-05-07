@@ -47,20 +47,20 @@ const ContactMe = () => {
     };
 
     return (
-        <div className= {` ${barlow.className} md:mt-12 sm:mt-0 `}>
-            <h1 className={` ${robotoSlab.className} text-2xl font-bold mb-5 `}>Send Your Email</h1>
+        <div className= {` ${barlow.className} md:mt-12 sm:mt-0 h-screen`}>
+            <h1 className={` ${robotoSlab.className} text-2xl font-bold pt-10 mb-5 `}>Send Your Email</h1>
              {/* email input section  */}
              <div >
               <form
                 onSubmit={handleSubmit}
                 action="/submit-feedback"
                 method="post"
-                className="bg-transparent shadow-lg w-full mx-auto p-4  rounded-md"
+                className="bg-transparent shadow-black shadow-md  w-full mx-auto py-10  px-4 rounded-md"
               >
                 <div>
                   <label
                     htmlFor="name"
-                    className="block text-gray-700 font-bold mb-2"
+                    className={` ${robotoSlab.className} block text-gray-700 font-bold mb-2 `}
                   >
                     Name:
                   </label>
@@ -69,7 +69,7 @@ const ContactMe = () => {
                     id="fullName"
                     name="name"
                     required
-                    className="w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md focus:outline-none focus:border-purple-900"
+                    className="w-full px-3 py-2 mb-4 bg-white text-black border border-black rounded-md focus:outline-none focus:border-purple-900"
                     placeholder="Your Name"
                   />
                 </div>
@@ -77,7 +77,7 @@ const ContactMe = () => {
                 <div>
                   <label
                     htmlFor="email"
-                    className="block text-gray-700 font-bold mb-2"
+                    className={` ${robotoSlab.className} block text-gray-700 font-bold mb-2 `}
                   >
                     Email:
                   </label>
@@ -86,7 +86,7 @@ const ContactMe = () => {
                     id="email_id"
                     name="email"
                     required
-                    className="w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md focus:outline-none focus:border-purple-900"
+                    className="w-full px-3 py-2 mb-4 bg-white text-black border border-black rounded-md focus:outline-none focus:border-purple-900"
                     placeholder="Your E-mail"
                   />
                 </div>
@@ -94,7 +94,7 @@ const ContactMe = () => {
                 <div>
                   <label
                     htmlFor="subject"
-                    className="block text-gray-700 font-bold mb-2"
+                    className={` ${robotoSlab.className} block text-gray-700 font-bold mb-2 `}
                   >
                     Subject:
                   </label>
@@ -103,7 +103,7 @@ const ContactMe = () => {
                     id="subject"
                     name="subject"
                     required
-                    className="w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md focus:outline-none focus:border-purple-900"
+                    className="w-full px-3 py-2 mb-4 bg-white text-black border border-black rounded-md focus:outline-none focus:border-purple-900"
                     placeholder="E-mail Subject"
                   />
                 </div>
@@ -111,7 +111,7 @@ const ContactMe = () => {
                 <div>
                   <label
                     htmlFor="feedback"
-                    className="block text-gray-700 font-bold mb-2"
+                    className={` ${robotoSlab.className} block text-gray-700 font-bold mb-2 `}
                   >
                     Feedback:
                   </label>
@@ -120,7 +120,7 @@ const ContactMe = () => {
                     name="feedback"
                     rows="5"
                     required
-                    className="w-full px-3 py-2 bg-white text-black border border-gray-300 rounded-md focus:outline-none focus:border-purple-900"
+                    className="w-full px-3 py-2 mb-4 bg-white text-black border border-black rounded-md focus:outline-none focus:border-purple-900"
                     placeholder="Your FeedBack"
                   ></textarea>
                 </div>
@@ -130,10 +130,7 @@ const ContactMe = () => {
                 ) : (
                   <button
                     type="submit"
-                    className="w-[85px] px-[0px] py-[8px] rounded-sm text-white mt-3
-              bg-gradient-to-t from-indigo-900 to-purple-500
-              shadow-lg shadow-gray-800
-               hover:from-purple-500 hover:to-indigo-900"
+                    className="mt-5 flex-1 sm:flex-none text-center flex items-center bg-blue-500 text-white text-sm px-8 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase"
                   >
                     Send
                   </button>
