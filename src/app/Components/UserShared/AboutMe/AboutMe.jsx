@@ -14,7 +14,8 @@ import scss from "@/assests/icon/tech icon/Sass.png";
 import JavaScript from "@/assests/icon/tech icon/js.png";
 import TypeScript from "@/assests/icon/tech icon/Typescript.png";
 import nextJs from "@/assests/icon/tech icon/Next.js.png";
-import react from "@/assests/icon/tech icon/react.png";
+import reactJs from "@/assests/icon/tech icon/react.png";
+import ElectronJs from "@/assests/icon/tech icon/electron.js.png";
 import node from "@/assests/icon/tech icon/node.png";
 import tailwind from "@/assests/icon/tech icon/tailwind.png";
 import bootstrap from "@/assests/icon/tech icon/bootstrap.png";
@@ -88,8 +89,12 @@ const AboutMe = () => {
       title: "NextJs",
     },
     {
-      logo: react,
+      logo: reactJs,
       title: "ReactJs",
+    },
+    {
+      logo: ElectronJs,
+      title: "ElectronJs",
     },
     {
       logo: redux,
