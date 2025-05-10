@@ -73,7 +73,7 @@ const Sidebar = () => {
             >
               Tamzid Ull Monir
             </h1>
-            <p className="flex justify-center items-center mt-3 gap-5 font-semibold">
+            <p className="flex justify-center items-center mt-3 md:gap-5 sm: gap-2 font-semibold">
               <span className="flex items-center lg:text-md md:text-sm sm: text-md">
                 <Image
                   src={locationImage}
@@ -82,8 +82,8 @@ const Sidebar = () => {
                 />{" "}
                 Chattogram,Bangladesh
               </span>
-              <span className="flex items-center lg:text-md md:text-sm sm: text-md">
-                <Image src={jobIcon} alt="icon" className=" w-[20px] me-2" />
+              <span className="flex items-center lg:text-md md:text-sm sm: text-sm">
+                <Image src={jobIcon} alt="icon" className=" w-[20px] me-2 " />
                 FrontEnd Developer
               </span>
             </p>
