@@ -53,7 +53,7 @@ const Sidebar = () => {
     <div className="bg-white text-black lg:w-[550px] md:w-[400px] sm: w-full sm: px-2 h-screen pt-10">
       {/* image section    */}
       <div className="flex justify-center">
-        <div className="bg-purple-900 w-[250px]  p-2  rounded-full shadow-2xl shadow-black">
+        <div className="bg-gradient-to-r from-[#000000] via-[#c9c8cd]  to-[#000000] w-[250px]  p-2  rounded-full shadow-2xl shadow-black">
           <Image
             src={dp}
             alt="display picture"
