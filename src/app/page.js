@@ -52,16 +52,16 @@ const Home = () => {
  <Box sx={{ width: '100%' }}>
       <Box sx={{  borderColor: 'divider', }} className= "bg-white md:fixed sm: sticky top-0 w-full z-10">
         <Tabs sx={{ padding:"10px" }} value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab sx={{ fontWeight: 'bold', color: "black" }} label="Projects" {...a11yProps(0)} />
-          <Tab sx={{ fontWeight: 'bold', color: "black" }} label="About" {...a11yProps(1)} />
+          <Tab sx={{ fontWeight: 'bold', color: "black" }} label="About" {...a11yProps(0)} />
+          <Tab sx={{ fontWeight: 'bold', color: "black" }}  label="Projects" {...a11yProps(1)} />
           <Tab sx={{ fontWeight: 'bold', color: "black" }} label="Contact" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-      <MyProjects/>
+        <AboutMe/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <AboutMe/>
+      <MyProjects/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         <ContactMe href="#contact"/>
