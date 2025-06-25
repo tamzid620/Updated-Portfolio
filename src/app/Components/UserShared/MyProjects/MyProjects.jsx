@@ -63,7 +63,7 @@ const projectData = [
   },
   {
     img: cart1Image2,
-    genre: "Online Course selling",
+    genre: "Online Course",
     name: "Azraelle Language Club",
     usedTech1: "React.js",
     usedTech2: "Firebase, Stripe",
