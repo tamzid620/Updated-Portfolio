@@ -25,7 +25,7 @@ const projectData = [
   {
     img: cart1Image5,
     genre: "Education",
-    name: "English School",
+    name: "Dashboard School Management",
     usedTech1: "React.js",
     usedTech2: "Material UI",
     usedTech3: "PHP",
