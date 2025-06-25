@@ -27,12 +27,12 @@ const projectData = [
     genre: "Education",
     name: "English School",
     usedTech1: "React.js",
-    usedTech2: "PHP,Laravel",
-    usedTech3: "email:admin@test.com",
-    usedTech4: "password:1234567",
+    usedTech2: "Material UI",
+    usedTech3: "PHP",
+    usedTech4: "Laravel",
     disc: "A full-stack school management system , secure checkout, and an admin panel for managing orders and inventory " ,
-    visitLink: "https://school.softplatoon.com/dp",
-    clientGitLink: "https://devtamzid.vercel.app/",
+    visitLink: "https://dashboard-management-one.vercel.app/",
+    clientGitLink: "https://github.com/tamzid620/dashboard-management",
     serverGitLink: "https://devtamzid.vercel.app/",
   },
   {
@@ -117,7 +117,7 @@ const MyProjects = () => {
               </div>
               {/* image div  */}
               <div className="md:flex sm: block justify-end">
-                <Image src={project?.img} alt={project?.name} className="w-96 h-64"/>
+                <Image src={project?.img} alt={project?.name} className="w-96 h-64 p-8 bg-gray-900"/>
               </div>
             </div>
             </div>
