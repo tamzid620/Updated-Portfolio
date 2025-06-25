@@ -5,6 +5,7 @@ import cart1Image1 from "@/assests/image/Osama-Mart-Banner.png";
 import cart1Image2 from "@/assests/image/Azraelle-Banner.png";
 import cart1Image3 from "@/assests/image/Concare-Banner.png";
 import cart1Image4 from "@/assests/image/SkyScape-Banner.png";
+import cart1Image5 from "@/assests/image/school-dashboard.png";
 import Link from "next/link";
 
 const projectData = [
@@ -20,6 +21,19 @@ const projectData = [
     visitLink: "https://osama-mart.vercel.app/",
     clientGitLink: "https://github.com/tamzid620/Osama-Mart",
     serverGitLink: "https://github.com/tamzid620/Osama-Mart-Server",
+  },
+  {
+    img: cart1Image5,
+    genre: "Education",
+    name: "English School",
+    usedTech1: "React.js",
+    usedTech2: "PHP,Laravel",
+    usedTech3: "email:admin@test.com",
+    usedTech4: "password:1234567",
+    disc: "A full-stack school management system , secure checkout, and an admin panel for managing orders and inventory " ,
+    visitLink: "https://school.softplatoon.com/dp",
+    clientGitLink: "https://devtamzid.vercel.app/",
+    serverGitLink: "https://devtamzid.vercel.app/",
   },
   {
     img: cart1Image3,
