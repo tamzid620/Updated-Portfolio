@@ -170,7 +170,7 @@ const AboutMe = () => {
         <h1 className={` ${robotoSlab.className} text-2xl font-bold mb-5 `}>
           My Skills
         </h1>
-        <div className="grid lg:grid-cols-5 md:grid-cols-2 sm: grid-cols-1 gap-5">
+        <div className="grid lg:grid-cols-5 md:grid-cols-2 sm: grid-cols-2 gap-5">
         {skillData.map(({ logo, title }) => (
             <div
               key={title}
