@@ -123,17 +123,17 @@ const MyProjects = () => {
                   {/* button section >>>>>>>>>>>>>>>>>>>>>>> */}
                   <div className="flex gap-3 my-5">
                     <Link href={project?.visitLink} target="_blank">
-                      <button className="flex-1 sm:flex-none text-center flex items-center bg-blue-500 text-white md:text-sm sm: text-xs px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
+                      <button className="flex-1 sm:flex-none text-center flex items-center bg-blue-800 text-white md:text-sm sm: text-xs px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
                         Visit
                       </button>
                     </Link>
                     <Link href={project?.clientGitLink} target="_blank">
-                      <button className="flex-1 sm:flex-none text-center flex items-center bg-green-700 text-white md:text-sm sm: text-xs px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
+                      <button className="flex-1 sm:flex-none text-center flex items-center bg-green-800 text-white md:text-sm sm: text-xs px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
                         Client GitLink
                       </button>
                     </Link>
                     <Link href={project?.serverGitLink} target="_blank">
-                      <button className="flex-1 sm:flex-none text-center flex items-center bg-red-500 text-white md:text-sm sm: text-xs px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
+                      <button className="flex-1 sm:flex-none text-center flex items-center bg-red-700 text-white md:text-sm sm: text-xs px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
                         ServerGitLink
                       </button>
                     </Link>
