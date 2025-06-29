@@ -6,6 +6,7 @@ import Image from "next/image";
 // import cart1Image3 from "@/assests/image/Concare-Banner.png";
 // import cart1Image4 from "@/assests/image/SkyScape-Banner.png";
 // import cart1Image5 from "@/assests/image/school-dashboard.png";
+import cart1Image0 from "@/assests/image/osama-mart-software.png";
 import cart1Image1 from "@/assests/image/project-osama-Mart.png";
 import cart1Image2 from "@/assests/image/project-azraelle.png";
 import cart1Image3 from "@/assests/image/project-concare.png";
@@ -14,7 +15,20 @@ import cart1Image5 from "@/assests/image/project-dashboard.png";
 import Link from "next/link";
 
 const projectData = [
-   {
+  {
+    img: cart1Image0,
+    genre: "Software",
+    name: "Osama Mart",
+    usedTech1: "Electron.js",
+    usedTech2: "Firebase",
+    usedTech3: "Express.js",
+    usedTech4: "MongoBD",
+    disc: "A full-stack e-commerce Software with product browsing, secure checkout (Stripe), and an admin panel for managing orders and inventory.",
+    visitLink: "https://drive.google.com/file/d/1eIlvaWyunAObybJCpIsZXH7LEHGuqdFG/view?usp=sharing",
+    clientGitLink: "https://github.com/tamzid620/Osama-Mart",
+    serverGitLink: "https://github.com/tamzid620/Osama-Mart-Server",
+  },
+  {
     img: cart1Image3,
     genre: "Real estate",
     name: "Concrare (HomePage)",
