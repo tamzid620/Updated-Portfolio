@@ -88,7 +88,7 @@ const Sidebar = () => {
               </span>
             </p>
             <p className="my-4 text-lg flex justify-center items-center font-semibold text-center">
-              A passionate frontend developer from Bangladesh
+              A Passionate Frontend Developer From Bangladesh
               <Image
                 src={bangladeshiFlag}
                 alt="bangladeshi flag"
@@ -105,32 +105,44 @@ const Sidebar = () => {
             </h1>
             <div className="flex gap-3 justify-center items-center mt-2">
               <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
-                <Image src={icon1} alt="icon" className=" w-[25px] md:me-2 sm: me-0" />
+                <Image
+                  src={icon1}
+                  alt="icon"
+                  className=" w-[25px] md:me-2 sm: me-0"
+                />
                 React.Js
               </button>
               <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
-                <Image src={icon2} alt="icon" className=" w-[25px] md:me-2 sm: me-0" />
+                <Image
+                  src={icon2}
+                  alt="icon"
+                  className=" w-[25px] md:me-2 sm: me-0"
+                />
                 Next.Js
               </button>
               <button className="flex-1 sm:flex-none text-center flex items-center text-black text-sm px-2 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
-                <Image src={icon3} alt="icon" className=" w-[25px] md:me-2 sm: me-0" />
+                <Image
+                  src={icon3}
+                  alt="icon"
+                  className=" w-[25px] md:me-2 sm: me-0"
+                />
                 JavaScript
               </button>
             </div>
-            <p className="mt-3 font-semibold">
-              specializing in dynamic, user-friendly websites with expertise in
+            <p className="mt-10 font-semibold">
+              Specializing in Dynamic, User-friendly Websites with Expertise in
               HTML, CSS, Next.js, React.js, JavaScript, Express.js, and MongoDB.
             </p>
           </div>
           {/* sub section -3  */}
-          <div className=" flex justify-center items-center gap-2 mt-10">
+          <div className=" flex justify-center items-center gap-2 mt-7">
             {socialLinksData.map(({ icon, title, linkto }, index) => (
               <div
                 key={index}
                 className="relative inline-block flex-1 sm:flex-none text-center p-0.5 rounded-full border-2 
-border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] 
-hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px]
-hover:translate-y-[2px] transition-all font-bold uppercase"
+                          border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] 
+                            hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px]
+                            hover:translate-y-[2px] transition-all font-bold uppercase"
               >
                 <Link
                   href={linkto}
@@ -148,6 +160,14 @@ hover:translate-y-[2px] transition-all font-bold uppercase"
                 )}
               </div>
             ))}
+          </div>
+          {/* HIRE ME BUTTON  */}
+          <div className="flex justify-center mt-8">
+            <Link href="https://wa.me/+8801852951963" target="_blank">
+              <button className=" flex-1 sm:flex-none text-center flex items-center text-black text-lg px-20 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
+                Don’t Thik , HIre ME !
+              </button>
+            </Link>
           </div>
         </div>
       </div>
