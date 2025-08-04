@@ -84,7 +84,7 @@ const Sidebar = () => {
               </span>
               <span className="flex items-center lg:text-md md:text-sm sm: text-sm">
                 <Image src={jobIcon} alt="icon" className=" w-[20px] me-2 " />
-                FrontEnd Developer
+                Frontend Developer
               </span>
             </p>
             <p className="my-4 text-lg flex justify-center items-center font-semibold text-center">
