@@ -1,5 +1,6 @@
 import React from 'react';
 import ClientWrapper from './ClientWrapper/ClientWrapper';
+import Head from 'next/head';
 
 export const metadata = {
     title: "Tamzid || Front End Developer",
@@ -9,6 +10,14 @@ export const metadata = {
 const RootLayout = ( {children}) => {
     return (
         <html lang="en">
+          
+      <Head>
+        <meta name="description" content="Official portfolio of Tamzid – a front-end developer skilled in React, Next.js, and modern web design." />
+        <meta name="keywords" content="Tamzid, Tamzid Portfolio, Frontend Developer, Next.js Developer, React Developer" />
+        <meta name="author" content="Tamzid" />
+        <link rel="canonical" href="https://devtamzid.vercel.app/" />
+      </Head>
+
         <body>
           <ClientWrapper>
             {children}
