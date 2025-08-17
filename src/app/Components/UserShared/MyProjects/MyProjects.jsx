@@ -37,7 +37,7 @@ const projectData = [
     usedTech3: "PHP",
     usedTech4: "Laravel",
     disc: "A full-stack school management system , secure checkout, and an admin panel for managing orders and inventory ",
-    visitLink: "https://dashboard-management-one.vercel.app/",
+    visitLink: "https://school.softplatoon.com/dp",
     clientGitLink: "https://github.com/tamzid620/dashboard-management",
     serverGitLink: "https://devtamzid.vercel.app/",
   },
