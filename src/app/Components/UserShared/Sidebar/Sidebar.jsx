@@ -165,7 +165,7 @@ const Sidebar = () => {
           <div className="flex justify-center mt-8">
             <Link href="https://wa.me/+8801852951963" target="_blank">
               <button className=" flex-1 sm:flex-none text-center flex items-center text-black text-lg px-20 py-2 rounded-sm border-2  border-black shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]  hover:shadow-[1px_1px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all font-bold uppercase">
-                Don’t Thik , HIre ME !
+                Don’t Think , HIre ME !
               </button>
             </Link>
           </div>
