@@ -34,11 +34,12 @@ const socialLinksData = [
     linkto: "https://wa.me/+8801852951963",
   },
   {
-    icon: cvLogo,
-    title: "Resume",
-    linkto:
-      "https://drive.google.com/file/d/15WzBm2IrIXlfGpqn_w9tPtLkL2YivlRw/view?usp=sharing",
-  },
+  icon: cvLogo,
+  title: "Resume",
+  linkto:
+    "https://drive.google.com/file/d/1_TIAxlxqhBGr5XWLVyLdHAOMfCsVP4oW/view?usp=drive_link",
+},
+
   {
     icon: phoneCallLogo,
     title: "Phone",
