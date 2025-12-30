@@ -21,12 +21,12 @@ const socialLinksData = [
   {
     icon: gitHub_Logo,
     title: "GitHub",
-    linkto: "https://github.com/tamzid620"
+    linkto: "https://github.com/tamzid620",
   },
   {
     icon: linkedin_Logo,
     title: "Linkedin",
-    linkto: "https://www.linkedin.com/in/tamzid-ull-monir-96b163260/"
+    linkto: "https://www.linkedin.com/in/tamzid-ull-monir-96b163260/",
   },
   {
     icon: whatsApp_Logo,
@@ -37,7 +37,7 @@ const socialLinksData = [
   icon: cvLogo,
   title: "Resume",
   linkto:
-    "https://drive.google.com/file/d/1_TIAxlxqhBGr5XWLVyLdHAOMfCsVP4oW/view?usp=drive_link"
+    "https://drive.google.com/file/d/1_TIAxlxqhBGr5XWLVyLdHAOMfCsVP4oW/view?usp=drive_link",
 },
 
   {
