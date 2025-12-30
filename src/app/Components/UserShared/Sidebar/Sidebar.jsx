@@ -37,7 +37,7 @@ const socialLinksData = [
   icon: cvLogo,
   title: "Resume",
   linkto:
-    "https://drive.google.com/file/d/1_TIAxlxqhBGr5XWLVyLdHAOMfCsVP4oW/view?usp=drive_link",
+    "https://drive.google.com/file/d/1_TIAxlxqhBGr5XWLVyLdHAOMfCsVP4oW/view?usp=drive_link"
 },
 
   {
