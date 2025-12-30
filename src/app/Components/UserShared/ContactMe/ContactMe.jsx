@@ -2,7 +2,8 @@ import React , { useState } from 'react';
 import { barlow, robotoSlab } from '@/app/config/fonts';
 
 import DefalutLoading from "@/app/config/DefalutLoading/DefalutLoading";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
+
 import Swal from "sweetalert2";
 
 
